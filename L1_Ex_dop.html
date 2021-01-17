@@ -1,0 +1,142 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дополнительное задание</title>
+    <style type="text/css">
+        p.dline {
+            margin-top: 0.5em; /* Отступ сверху */
+            margin-bottom: 0.5em; /* Отступ снизу */
+        }
+        .elem1 { 
+            color:firebrick;
+            text-decoration: line-through;
+        }
+        .elem2 { 
+            color:royalblue;
+            text-decoration: underline; 
+        }
+        .elem3 {
+            text-decoration: underline;
+            vertical-align: super;
+        }
+        .elem5 {
+            font-weight:bold;
+            font-size: 14pt;
+        }
+        .elem6 {
+            vertical-align:-0.8em;
+        }
+       </style>
+</head>
+<body>
+    <h1 align="center">Заголовок первого уровня</h1>
+    <h3>Предварительно форматированный текст:</h3>
+    <p class ="dline">&nbsp;x&nbsp;|&nbsp;o&nbsp;|</p>
+    <hr align="left" style="border:none; border-top: 1px dashed black; width: 60px;">
+    <p class ="dline">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;x&nbsp;|</p>
+    <hr align="left" style="border:none; border-top: 1px dashed black; width: 60px;">
+    <p class ="dline">&nbsp;o&nbsp;|&nbsp;x&nbsp;|&nbsp;o&nbsp;|</p>
+    
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+    
+    <h3>Тег address</h3>
+    <p>
+        <i>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</i>
+    </p>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+   
+    <h3>Семантические и функциональные строчные теги</h3>
+    <p>
+        Пожелания автора: <br>
+        <span class = "elem1">Данный текст убрать из монографии</span> и заменить его на <span class="elem2">вновь помещённый текст</span>.
+    </p>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+
+    <h3>Работа со строчными и блоковыми цитатами</h3>
+    <p> 
+        Цитата короткая:<br>
+        <i>И всё­таки она вертится!</i><br><br>
+        Цитата занимающая несколько предложений:
+        <blockquote>
+        О сколько нам открытий чудных <br>
+        Готовят просвещенья дух<br>
+        И опыт, сын ошибок трудных,<br>
+        И гений, парадоксов друг,<br>
+        И случай, бог изобретатель...<br>
+        </blockquote>
+    </p>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+
+    <h3>Семантические и функциональные строчные теги</h3>
+    <p>
+        <b>Тэг &ltSTRONG&gt делает данный фрагмент текста более важным.</b> <i>Тэг &ltem&gt менее важным.</i> 
+        В то время как теги &ltb&gt и &lti&gt делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.
+    </p>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+
+    <h3>Теги форматирования машинного языка</h3>
+    <p>
+        При выполнении программного кода на языке PERL:
+    </p>
+    <code>
+        #!/usr/local/bin/perl<br>
+        print "Content‐type: text/html\n\n";<br>
+        print "&ltH1&gtHello World&lt/H1&gt\n";
+    </code>
+    <p>Программа выведет:</p>
+    <code>Hello, World!</code>
+    <p>
+        Однако в браузере у нас будет отображаться результат выполнения этой программы:
+    </p>
+    <h1>Hello, World!</h1>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+
+    <h3>Комментарии и литералы(мнемоники) в HTML</h3>
+    <code>
+        &lt!‐‐ это комментарий ‐‐&gt <br>
+        <span style = " margin-left: 9em;">&lt!‐‐ и это также комментарий,</span> <br>
+        <span style = " margin-left: 9em;">занимающий более одной строки ‐‐&gt</span>
+    </code>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+
+    <h3>Теги над­ и подстрочных символов</h3>
+    <p align="center">
+        <b>Магазин работает:</b> <br>
+        <div align='center'>
+            c 8<span class="elem3">30</span> до 18<span class="elem3">30</span><br>
+            обед с 13<span class="elem3">00</span> до 14<span class="elem3">00</span><br>
+            выходной: <u>суббота</u>, <u>воскресенье</u>
+        </div>
+    </p>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+
+    <h3>Вот такой текст</h3>
+
+    <div class='elem5'>
+        Э<span class='elem6'>т</span>о <span class='elem6'>п</span>р<span class='elem6'>о</span>
+        с<span class='elem6'>т</span>о <span class='elem6'>в</span>е<span class='elem6'>с</span>
+        ё<span class='elem6'>л</span>ы<span class='elem6'>й</span> т<span class='elem6'>е</span>
+        к<span class='elem6'>с</span>т
+    </div>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+
+    <h3>Акроним и курсив</h3>
+    
+    <p>
+        ТФ: Y(<i>x</i>)=e<span style=" vertical-align: super;"><i>-i&pi;x</i></span>+log<span style=" vertical-align: sub;"><i>x</i></span>4
+    </p>
+
+    <hr style="border:none; border-top: 1px solid rgb(80, 80, 80);">
+    <h3>Тег small внтури абзаца</h3>
+</body>
+</html>

@@ -1,0 +1,13 @@
+header {
+    text-align: right;
+}
+h3 {
+    text-indent:12px; /*отступ первой строки от края*/
+    font: bold 14pt segoe script, segoe print; /*жирный, 12пт, шрифт*/
+    text-decoration: underline; /*подчеркивание*/
+
+}
+article {
+    text-indent:12px;
+    font: 14pt segoe script, segoe print;
+}

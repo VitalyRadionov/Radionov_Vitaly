@@ -1,0 +1,18 @@
+ol:nth-last-child(1) {
+  list-style-type: lower-roman; /*строчные римсике цифры*/
+}
+ol:nth-last-child(2) {
+  width: 350px; /*ширина списка*/
+  list-style-type: upper-roman; /*прописные римсике цифры*/
+}
+code {
+  background-color: black;
+  color: forestgreen;
+  display: block; /*блочное отображение*/
+  width: 400px;
+  max-height: 80px; /*максимальная высота для отображения 4-х строк*/
+  overflow: auto; /*скрол - авто*/
+}
+#ol_2 {
+  font-weight: bold; /*жирное начертание 1-ого уровня списка*/
+}

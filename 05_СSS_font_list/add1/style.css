@@ -1,0 +1,41 @@
+.var1 {
+  width: 80%;
+  padding: 2em;
+  margin-bottom: 0.2em;
+  background-color: thistle;
+  background-image: url(img/b-r.gif), url(img/b-l.gif), url(img/t-l.gif),
+    url(img/t-r.gif), url(img/l.gif), url(img/r.gif), url(img/t.gif),
+    url(img/b.gif);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y,
+    repeat-y, repeat-x, repeat-x;
+  background-position: bottom right, bottom left, top left, top right, left,
+    right, top, bottom;
+}
+.var2 {
+  width: 80%;
+  padding: 3em;
+  margin-bottom: 0.2em;
+  /*background-color: black;*/
+  color: forestgreen;
+  background-image: url(img/new-2/r-b.png), url(img/new-2/l-b.png),
+    url(img/new-2/l-t.png), url(img/new-2/r-t.png), url(img/new-2/l.png),
+    url(img/new-2/r.png), url(img/new-2/t.png), url(img/new-2/b.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y,
+    repeat-y, repeat-x, repeat-x;
+  background-position: bottom right, bottom left, top left, top right, left,
+    right, top, bottom;
+}
+.var4 {
+  width: 80%;
+  margin: 100px;
+  border-style: solid;
+  border-width: 5px;
+
+  background-color: black;
+  color: forestgreen;
+  border-image-source: url(img/new-3/border-4.jpg);
+  border-image-slice: 200;
+  border-image-repeat: stretch round;
+  border-image-width: 70px;
+  border-image-outset: 70px;
+}

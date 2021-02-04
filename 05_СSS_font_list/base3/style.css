@@ -1,0 +1,22 @@
+body {
+  background-color: darkgrey;
+  margin: 10px;
+}
+.nav {
+  background-color: lightgray;
+  width: 15em;
+  float: left;
+}
+.st1 {
+  background-color: lightslategrey;
+  margin-bottom: 0.2em;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: lightgray;
+}
+img {
+  width: 130px;
+  align-self: flex-end;
+}

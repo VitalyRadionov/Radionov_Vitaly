@@ -1,0 +1,43 @@
+body {
+  background-color: darkgrey;
+  margin: 10px;
+}
+/*выводим 4 блока, один с левой стороны, два с правой, один снизу*/
+.mainitem {
+  /*объединяем всё в один блок*/
+  display: flex;
+  flex-direction: column; /*выстраиваем элементы по вертикали*/
+}
+.nav {
+  /*блок "навигация" с заданной шириной, фоном*/
+  background-color: lightgray;
+  width: 15em;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0; /*отменяем сжатие*/
+}
+.item {
+  /*блоки "статья1" и "статья2" с отступом внизу*/
+  background-color: lightslategrey;
+  margin-bottom: 0.2em;
+  display: flex;
+  flex-flow: column;
+}
+.sideitem {
+  /*объединяем блоки "статья1" и "статья2" в блок СТАТЬЯ*/
+  display: flex;
+  flex-direction: column;
+}
+.seconditem {
+  /*блок СТАТЬЯ + блок "навигация"*/
+  display: flex;
+  flex-direction: row; /*выстраиваем элементы по горизонтали*/
+  align-items: flex-start; /*выравниваем по началу ряда*/
+}
+img {
+  width: 130px;
+  align-self: flex-end; /*выравниваем по концу ряда*/
+}
+footer {
+  background-color: lightgray;
+}

@@ -9,37 +9,37 @@ span {
 
 /*позиционирование спрайтов, выстраивание карт*/
 /*наложжение, смещение по горизонтали*/
-#i_pos #clover3 {
+.i_pos > .clover3 {
   background: url(img/cards1.png) -145px -200px;
 }
-#i_pos #heart5 {
+.i_pos > .heart5 {
   background: url(img/cards1.png) -433px -598px;
   left: -110px;
 }
-#i_pos #tiles9 {
+.i_pos > .tiles9 {
   background: url(img/cards1.png) -289px -1394px;
   left: -220px;
 }
 /*выстроены в ряд*/
-#r_pos #clover3 {
+.r_pos > .clover3 {
   background: url(img/cards1.png) -145px -200px;
 }
-#r_pos #heart5 {
+.r_pos > .heart5 {
   background: url(img/cards1.png) -433px -598px;
 }
-#r_pos #tiles9 {
+.r_pos > .tiles9 {
   background: url(img/cards1.png) -289px -1394px;
 }
 /*наложение, смещение по горизонтали и вертикали*/
-#d_pos #clover3 {
+.d_pos > .clover3 {
   background: url(img/cards1.png) -145px -200px;
 }
-#d_pos #heart5 {
+.d_pos > .heart5 {
   background: url(img/cards1.png) -433px -598px;
   left: -110px;
   top: 20px;
 }
-#d_pos #tiles9 {
+.d_pos > .tiles9 {
   background: url(img/cards1.png) -289px -1394px;
   left: -220px;
   top: 40px;

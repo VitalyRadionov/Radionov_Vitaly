@@ -1,10 +1,10 @@
 body {
-  background-color: darkgrey;
   margin: 10px;
 }
 /*выводим 4 блока, один с левой стороны, два с правой, один снизу*/
 .mainitem {
   /*объединяем всё в один блок*/
+  background-color: darkgrey;
   display: flex;
   flex-direction: column; /*выстраиваем элементы по вертикали*/
 }

@@ -1,0 +1,43 @@
+p {
+  border: 1px solid gray;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+a[href*="wikipedia.org"]::before {
+  content: url(img/extref.png);
+}
+p > a[href*=".pdf"]::after {
+  content: url(img/logo-pdf.png);
+}
+p > a[href*=".doc"]::after {
+  content: url(img/logo-doc.jpg);
+}
+p > a[href*=".zip"]::after {
+  content: url(img/logo-zip.gif);
+}
+/* форматирование списка*/
+ul {
+  position: relative;
+  list-style: none;
+}
+/* устанавливаем маркер списка*/
+li::before {
+  content: url(img/logo-list.jpg);
+}
+/* картинки для каждого типа файлов, скрываем*/
+li a[href*=".doc"]::after {
+  content: url(img/logo-doc.jpg);
+  display: none;
+}
+li a[href*=".pdf"]::after {
+  content: url(img/logo-pdf.png);
+  display: none;
+}
+li a[href*=".zip"]::after {
+  content: url(img/logo-zip.gif);
+  display: none;
+}
+/* выводим картинку при наведении мыши*/
+li a:hover::after {
+  display: inline;
+}

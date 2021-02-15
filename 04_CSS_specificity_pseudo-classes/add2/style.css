@@ -1,0 +1,25 @@
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  counter-reset: list 65; /* инициализация счётчика*/
+}
+td {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font: bold 60px serif;
+}
+/* закрашиваем чётные ячейки нечётных строк*/
+tr:nth-child(2n + 1) td:nth-child(2n) {
+  background-color: black;
+  color: aliceblue;
+}
+/* закрашиваем нечётные ячейки чётных строк*/
+tr:nth-child(2n) td:nth-child(2n + 1) {
+  background-color: black;
+  color: aliceblue;
+}
+td::before {
+  counter-increment: list -1; /* уменьшаем значение счетчика */
+  content: counter(list); /* выводим число */
+}

@@ -1,0 +1,29 @@
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-bottom: 1px dotted grey;
+}
+th {
+  background-color: grey;
+  color: aliceblue;
+}
+td,
+th {
+  border: 1px dotted grey;
+}
+caption {
+  text-align: center;
+  caption-side: bottom; /* заголовок таблицы внизу*/
+}
+tr:nth-child(2n + 1) {
+  background-color: rgb(197, 197, 197);
+}
+td:first-of-type {
+  text-align: left;
+  font-weight: bold;
+}
+tr:hover {
+  background-color: lightslategrey;
+  color: aliceblue;
+  cursor: pointer;
+}

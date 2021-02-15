@@ -1,0 +1,29 @@
+p {
+  border: 1px solid gray;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+a[href*="wikipedia.org"] {
+  padding: 0px 0px 0px 12px;
+  background-image: url(img/extref.png);
+  background-position: 0px 4px;
+  background-repeat: no-repeat;
+}
+a[href*=".pdf"] {
+  padding: 5px 20px 0px 0px;
+  background-image: url(img/logo-pdf.png);
+  background-position: 102px 5px;
+  background-repeat: no-repeat;
+}
+a[href*=".doc"] {
+  padding: 4px 20px 0px 0px;
+  background-image: url(img/logo-doc.jpg);
+  background-position: 135px 5px;
+  background-repeat: no-repeat;
+}
+a[href*=".zip"] {
+  padding: 4px 20px 0px 0px;
+  background-image: url(img/logo-zip.gif);
+  background-position: 45px 5px;
+  background-repeat: no-repeat;
+}

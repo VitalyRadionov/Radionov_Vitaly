@@ -1,0 +1,16 @@
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+td {
+  width: 80px;
+  height: 80px;
+}
+/* закрашиваем чётные ячейки нечётных строк*/
+tr:nth-child(2n + 1) td:nth-child(2n) {
+  background-color: black;
+}
+/* закрашиваем нечётные ячейки чётных строк*/
+tr:nth-child(2n) td:nth-child(2n + 1) {
+  background-color: black;
+}

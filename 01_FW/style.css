@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+}
+div[class="col-lg-4"] {
+  width: 350px;
+}
+ul {
+  padding-left: 70px;
+}

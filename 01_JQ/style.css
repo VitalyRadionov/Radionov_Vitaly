@@ -22,9 +22,7 @@ td:first-of-type {
   text-align: left;
   font-weight: bold;
 }
-/* стиль при наведении курсора */
-tr:hover,
-caption:hover {
+tr:hover {
   background-color: lightslategrey;
   color: aliceblue;
   cursor: pointer;

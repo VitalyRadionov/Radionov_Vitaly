@@ -45,7 +45,7 @@ a {
 @media screen and (max-width: 745px) {
   .top-menu li {
     display: block;
-    margin: left;
+    margin-left: auto;
     border-bottom: 1px solid #fff;
   }
   .submenu {
